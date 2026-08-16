@@ -1,0 +1,89 @@
+# ==============================
+# Java
+# ==============================
+
+# Compiled class files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# ==============================
+# Maven
+# ==============================
+
+# Maven build output
+target/
+
+# Maven wrapper generated files
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# Spring Boot
+# ==============================
+
+# Spring Boot packaged artifacts
+*.original
+
+# ==============================
+# IDE - IntelliJ IDEA
+# ==============================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==============================
+# IDE - Eclipse / Spring Tool Suite
+# ==============================
+
+.classpath
+.project
+.settings/
+
+# ==============================
+# IDE - VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# OS Generated Files
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
